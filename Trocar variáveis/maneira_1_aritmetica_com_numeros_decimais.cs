@@ -1,12 +1,11 @@
 using System;
 
-//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar.
+//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar. O conjunto dos números reais pode ser usado para os valores desse programa.
 
 class TrocaAritmeticaDeNumerosDecimais
 {
     public static void Main()
     {
-        //Entrada dos dados via teclado
         Console.Write("Digite o valor do primeiro número inteiro: ");
         decimal n1 = Convert.ToDecimal(Console.ReadLine());
         Console.Write("\nDigite o valor do segundo número inteiro: ");
