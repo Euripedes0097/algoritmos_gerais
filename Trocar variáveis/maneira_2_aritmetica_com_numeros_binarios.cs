@@ -8,7 +8,6 @@ class TrocaAritmeticaDeNumerosBinarios
     {
         Console.Write("Digite o valor do primeiro número inteiro: ");
         int n1 = Convert.ToInt32(Console.ReadLine());
-
         Console.Write("\nDigite o valor do segundo número inteiro: ");
         int n2 = Convert.ToInt32(Console.ReadLine());
 
