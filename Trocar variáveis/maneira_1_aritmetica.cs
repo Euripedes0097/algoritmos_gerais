@@ -1,6 +1,6 @@
 using System;
 
-//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar. Ao final da execução, mostra os dois valores no console.
+//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar. No final da execução, mostra-se os dois valores no console.
 
 class TrocaAritmeticaDeNumeros
 {
