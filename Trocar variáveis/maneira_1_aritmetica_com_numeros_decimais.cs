@@ -1,15 +1,15 @@
 using System;
 
-//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar. Ao final da execução, mostra os dois valores no console.
+//A troca aritmética de números dispensa o uso de uma terceira variável auxiliar.
 
 class TrocaAritmeticaDeNumerosDecimais
 {
     public static void Main()
     {
-        Console.Write("Digite o valor do primeiro número: ");
+        //Entrada dos dados via teclado
+        Console.Write("Digite o valor do primeiro número inteiro: ");
         decimal n1 = Convert.ToDecimal(Console.ReadLine());
-
-        Console.Write("\nDigite o valor do segundo número: ");
+        Console.Write("\nDigite o valor do segundo número inteiro: ");
         decimal n2 = Convert.ToDecimal(Console.ReadLine());
 
         n1 = n1 + n2;
