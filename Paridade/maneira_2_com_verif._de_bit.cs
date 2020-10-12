@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-/*Se o bit de ordem zero coincidir com o número 1, então o número é ímpar, pois é a única maneira
+/*Se o bit de ordem zero coincidir logicamente com o número 1, então o número é ímpar, pois é a única maneira
  * de potências de base 2 somarem um número ímpar.*/
 
 public class ParidadeComMetProprio
