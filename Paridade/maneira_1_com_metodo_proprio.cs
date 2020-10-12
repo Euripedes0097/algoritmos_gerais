@@ -3,10 +3,10 @@ using System;
 /*O algoritmo testa se um número digitado pelo teclado é par ou ímpar através da
  * função MóduloExterno e mostra o resultado no terminal
  * Uma divisão pode ser escrita como uma equação. Ao isolar o resto da divisão em um dos membros da
- * equação, teremos o módulo. É ele que se´r retornado pela função.
+ * equação, teremos o módulo. É ele que será retornado pelo método.
  * Se o resto da divisão for igual a 0, o número é par; caso o resto seja 1, o número é ímpar*/
 
-public class ParidadeComExterna
+public class ParidadeComMetProprio
 {
     // Dividendo/divisor = quociente + resto/divisor => resto = dividendo - quociente*divisor;
     public static int ModuloExterno(int dividendo, int divisor)
@@ -33,6 +33,5 @@ public class ParidadeComExterna
 
         Console.WriteLine("\nProgrma finalizado. Aperte qualquer tecla.");
         Console.ReadKey();
-
     }
 }
