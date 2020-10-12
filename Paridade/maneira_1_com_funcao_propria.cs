@@ -6,9 +6,9 @@ using System;
  * equação, teremos o módulo. É ele que se´r retornado pela função.
  * Se o resto da divisão for igual a 0, o número é par; caso o resto seja 1, o número é ímpar*/
 
-public class ParidadeComFInterna
+public class ParidadeComExterna
 {
-    // Dividendo/divisor = quociente + resto/divisor;
+    // Dividendo/divisor = quociente + resto/divisor => resto = dividendo - quociente*divisor;
     public static int ModuloExterno(int dividendo, int divisor)
     {
         int quociente;
