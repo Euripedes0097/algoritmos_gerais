@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 /*O algoritmo testa se um número digitado pelo teclado é par ou ímpar através da
  * função MóduloExterno e mostra o resultado no terminal
@@ -28,7 +28,7 @@ public class ParidadeComMetProprio
         }
         else
         {
-            Console.WriteLine("\nO número {0} é impar.", n1);
+            Console.WriteLine("\nO número {0} é ímpar.", n1);
         }
 
         Console.WriteLine("\nProgrma finalizado. Aperte qualquer tecla.");
