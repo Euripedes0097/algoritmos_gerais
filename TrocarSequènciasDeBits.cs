@@ -1,6 +1,6 @@
 ﻿
-//Os r bits a partir do dígito p são trocados com os r bits começados no dígito q de um inteiro sem sinal.
-// 56 _10 = 0011 1000 _2. Então depois do 56 ser processado, a saída será 7 _10 = 0000 0111 _2
+//Os r bits a partir do dígito p são trocados com os r bits começados no dígito q de um inteiro n sem sinal.
+//Para r = 3, p = 0, q = 3 e n = 56 _10 = 0011 1000 _2, o 56 ser ao ser processado, terá a saída de 7 _10 = 0000 0111 _2.
 using System;
 namespace Projeto002Operadores02
 {
